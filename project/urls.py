@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('pots/', include('pots.urls')),
+    path('comments/', include('comments.urls')),
 ]
